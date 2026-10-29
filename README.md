@@ -56,7 +56,7 @@ The script uses `config.json` for configuration.
 Run the below comamnd to generate `config.json` file :
 
 ```bash
-python config_installer.py
+python config_installer.pyc
 ```
 
 The configuration contains items such as:
@@ -129,7 +129,7 @@ The script automatically discovers the available schema directories and creates 
 Run:
 
 ```bash
-python3.12 main.py
+python3.12 main.pyc
 ```
 
 The script provides options for external table creation.
@@ -223,9 +223,9 @@ reports/
 
 ```text
 ext-tab-scripts/
-├── main.py
-├── utils.py
-├── config_installer.py
+├── main.pyc
+├── utils.pyc
+├── config_installer.pyc
 ├── requirements.txt
 ├── README.md
 └── .gitignore
